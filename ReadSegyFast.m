@@ -236,4 +236,5 @@ if (existTmin==1)&(existTmax==1)
   gooddata=find(origtrange>tmin & origtrange<tmax);
   Data=Data(gooddata,:);
 end
-
+% Win11-X64 Matlab R2022b
+fclose(segyid);
