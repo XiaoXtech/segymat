@@ -39,3 +39,5 @@ end;
 
 % Write Segy Data
 fwrite(segyid,[SegyTraceHeadersBinary;Data],SegyHeader.DataFormat);
+% Win11-X64 Matlab R2022b
+fclose(segyid);
